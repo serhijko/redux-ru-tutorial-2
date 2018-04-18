@@ -1,0 +1,23 @@
+{
+  "name": "redux-ru-tutorial-2",
+  "version": "2.0.0",
+  "description": "Redux RU tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhijko/redux-ru-tutorial-2.git"
+  },
+  "keywords": [
+    "redux",
+    "react"
+  ],
+  "author": "Serhij Korneluk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serhijko/redux-ru-tutorial-2/issues"
+  },
+  "homepage": "https://github.com/serhijko/redux-ru-tutorial-2#readme"
+}
