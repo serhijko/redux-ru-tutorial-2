@@ -19,6 +19,14 @@ module.exports = {
   module: {
     rules: [
       {
+        enforce: 'pre',
+        test: /\.jsx?$/,
+        loaders: ['eslint-loader'],
+        include: [
+          path.resolve(__dirname, "src"),
+        ],
+      },
+      {
         loaders: ['babel-loader'],
         include: [
           path.resolve(__dirname, "src"),
