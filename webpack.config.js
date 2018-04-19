@@ -1,5 +1,6 @@
 var path = require('path')
 var webpack = require('webpack')
+var NpmInstallPlugin = require('npm-install-webpack-plugin');
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
@@ -14,7 +15,8 @@ module.exports = {
     publicPath: '/static/'
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new NpmInstallPlugin()
   ],
   module: {
     rules: [
