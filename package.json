@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/serhijko/redux-ru-tutorial-2/issues"
   },
-  "homepage": "https://github.com/serhijko/redux-ru-tutorial-2#readme"
+  "homepage": "https://github.com/serhijko/redux-ru-tutorial-2#readme",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^2.0.6",
+    "webpack-hot-middleware": "^2.22.1"
+  }
 }
