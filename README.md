@@ -2,6 +2,6 @@
 Code for book:
 Redux RU tutorial 2
 
-Код для [Комбинирование редьюсеров](http://sp.carkva-gazeta.by/redux-ru-tutorial-2/combinereducers.html)
+Код для [Контейнеры и компоненты](http://sp.carkva-gazeta.by/redux-ru-tutorial-2/konteineri_i_komponenti.html)
 
-Добавлено ```combineReducer```
+Добавлено ```Containers```
