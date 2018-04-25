@@ -2,6 +2,6 @@
 Code for book:
 Redux RU tutorial 2
 
-Код для [Контейнеры и компоненты](http://sp.carkva-gazeta.by/redux-ru-tutorial-2/konteineri_i_komponenti.html)
+Код для [Создание actions](http://sp.carkva-gazeta.by/redux-ru-tutorial-2/sozdanie_actions.html)
 
-Добавлено ```Containers```
+Добавлено ```actions```
