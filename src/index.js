@@ -9,7 +9,7 @@ const store = configureStore()
 
 render(
   <Provider store={store}>
-    <div className='app'>
+    <div className="app">
       <App />
     </div>
   </Provider>,
