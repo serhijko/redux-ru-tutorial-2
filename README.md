@@ -2,6 +2,6 @@
 Code for book:
 Redux RU tutorial 2
 
-Код для [Создание actions](http://sp.carkva-gazeta.by/redux-ru-tutorial-2/sozdanie_actions.html)
+Код для [Наводим порядок](http://sp.carkva-gazeta.by/redux-ru-tutorial-2/css_markup.html)
 
-Добавлено ```actions```
+Добавлено ```Constants```
