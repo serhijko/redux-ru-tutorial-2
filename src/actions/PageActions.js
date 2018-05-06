@@ -8,7 +8,7 @@ let photosArr = []
 let cached = false
 
 function makeYearPhotos(photos, selectedYear) {
-  let createdYear, yearPhotos []
+  let createdYear, yearPhotos = []
 
   photos.forEach((item) => {
     createdYear = new Date(item.created*1000).getFullYear()
