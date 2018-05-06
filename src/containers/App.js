@@ -18,8 +18,9 @@ class App extends Component {
         year={page.year}
         getPhotos={getPhotos}
         fetching={page.fetching}
+        error={page.error}
       />
-      <User name={user.name} handleLogin={handleLogin} />
+      <User name={user.name} handleLogin={handleLogin} error={user.error} />
     </div>
   }
 }

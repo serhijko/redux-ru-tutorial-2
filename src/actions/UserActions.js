@@ -28,7 +28,7 @@ export function handleLogin() {
           payload: new Error('Ошибка авторизации')
         })
       }
-    },4); // bitmask for access friends, photos
+    },4); // запрос прав на доступ к photos
   }
 
 }
