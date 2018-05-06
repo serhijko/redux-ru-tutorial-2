@@ -1,7 +1,19 @@
-const initialState = {
-  name: 'Аноним',
-};
+import {
+  LOGIN_SUCCESS
+} from '../constants/User'
 
-export default function user(state = initialState) {
-  return state
+const initialState = {
+  name: '',
+}
+
+export default function user(state = initialState, action) {
+
+  switch(action.type) {
+    case LOGIN_SUCCESS:
+      return { ...state, name: action.payload }
+
+    default:
+      return state
+  }
+
 }
