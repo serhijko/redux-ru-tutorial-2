@@ -2,4 +2,4 @@
 Code for book:
 Redux RU tutorial 2
 
-Код для [Асинхронные actions](http://sp.carkva-gazeta.by/redux-ru-tutorial-2/asinhronnie_actions.html)
+Код для [Взаимодействуем с VK](http://sp.carkva-gazeta.by/redux-ru-tutorial-2/vzaimodeistvuem_s_vk.html)
